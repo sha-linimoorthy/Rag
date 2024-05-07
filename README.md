@@ -11,8 +11,6 @@ RAG models represent a significant advancement in natural language processing, b
    
 2. **Generator**: The generator module, often built upon architectures like GPT (Generative Pre-trained Transformer), T5 (Text-To-Text Transfer Transformer), or similar models, generates text conditioned on both the input query and the retrieved context. This ensures that the generated output is not only fluent but also contextually grounded.
 
-3. **Ranker**: In some implementations, a ranker module is employed to further refine the retrieved documents or passages, prioritizing the most relevant ones for the generation task. This step enhances the quality and relevance of the retrieved information.
-
 ## Advantages
 - **Contextual Relevance**: By incorporating retrieved context, RAG models produce more coherent and contextually relevant outputs compared to traditional generative models.
   
